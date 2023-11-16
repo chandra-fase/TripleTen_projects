@@ -20,4 +20,7 @@ The Film Junky Union, a new edgy community for classic movie enthusiasts, is dev
 
 ## General conclusion
 
-With our 20 epochs we were able to achieve a MAE of 5.5504, which is great. The system took less than 30 minutes to run, with each epoch taking just over one minute. This could possibly be further improved by adding dropout, and increasing the training time.
+- The DummyClassifier, as expected, produces an F1 score of 50%, which is as good as flipping an unbiased coin.
+- Comparing the LogisticRegression models with NLTK used for preprocessing and Spacy for preprocessing, the model with reviews preprocesed using NLTK, comes out at the top with best f1 score of 88%.
+- Both the models were trained using 5 fold cross-validation with hyperparameter tuning on the C parameter.
+- The LightGBM model turned out to have a lower f1 score, and it took more than two hours to complete training.
