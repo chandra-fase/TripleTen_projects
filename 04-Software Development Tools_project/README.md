@@ -27,7 +27,22 @@ Step 1. Project Prerequisites
 4.	Create an account on render.com, link it to your GitHub account
 5.	Install VS Code, load the project directory and set the Python interpreter to the one used by the virtual environment
 
+Step 2. Download the data file
+1.	Download the car advertisement dataset (vehicles_us.csv) or find your own dataset in a CSV format
+2.	Place the dataset in the root directory of the project
 
+Step 3. Exploratory Data Analysis
+1.	Create an EDA.ipynb Jupyter notebook in VS Code
+2.	Save the notebook in the notebooks directory of your project
+3.	Perform some basic exploratory analysis of the dataset in the notebook
+4.	Create a couple of histograms and scatterplots using plotly-express library
+
+Step 4. Develop the web application dashboard
+1.	Create an app.py file in the root of the project’s directory
+2.	Import streamlit, pandas and plotly_express
+3.	Read the dataset’s CSV file into a DataFrame
+
+Step 5. Deploy the final version of the application to Render
 
 ## General conclusion
 
