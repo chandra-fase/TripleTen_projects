@@ -41,4 +41,5 @@ We compared several models with Dummy Regressor (sMAPE=0.1029):
 - Linear regression: 0.1238
 - Decision tree regressor: nan
 - Random forest regressor: 0.1177 with a 0.1047 score on the test set with 66% accuracy.
+
 It seems that the Dummy Regressor has the best result according to the sMAPE
