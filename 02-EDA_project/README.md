@@ -46,6 +46,7 @@ After analyzing the data, I concluded:
 - People are more likely to reorder their groceries monthly with most shoppers purchasing only one item and very little ordering over 15 items.
 
 ## Suggestions for Company
+
 Understanding customers' shopping habits regarding timing and frequency can significantly impact business strategies for Instacart or similar platforms. Here are some potential improvement ideas and business outcomes based on the conclusions drawn:
 
 - **Optimized Delivery Scheduling:** Utilize the insights about peak shopping times (between 10 am to around 3 pm) to strategically plan delivery slots. Allocate more resources, delivery personnel, and customer support during these peak hours to ensure timely and efficient deliveries. This optimization could lead to increased customer satisfaction and loyalty.
