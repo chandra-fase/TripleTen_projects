@@ -56,21 +56,27 @@ After analyzing the data, I concluded:
 
 ## Suggestions for the Company
 
-- **Strategic Inventory Management:**
- - **Platform-Specific Stock Management:** Considering the trend that top-selling platforms gained popularity post-1995, focus on optimizing inventory for these platforms, ensuring a robust selection of games tailored to their popularity. Minimize investments in obsolete platforms released before 2005, aligning stock levels with declining demand.
-- **Data Relevance and Focus:**
- - **Focused Data Analysis:** Acknowledging the irrelevance of data collected prior to 2013, concentrate future analyses and predictions on more recent and pertinent data sets. This can streamline analysis efforts and lead to more accurate forecasting for forthcoming years.
-- **Advertising and Promotional Strategies:**
- - **Targeted Marketing for Successful Platforms:** Capitalize on the correlation between critic scores and sales for platforms like PlayStation. Design marketing campaigns that highlight critical acclaim to potentially boost sales further.
+**Strategic Inventory Management:**
+ - Platform-Specific Stock Management: Considering the trend that top-selling platforms gained popularity post-1995, focus on optimizing inventory for these platforms, ensuring a robust selection of games tailored to their popularity. Minimize investments in obsolete platforms released before 2005, aligning stock levels with declining demand.
+
+ **Data Relevance and Focus:**
+ - Focused Data Analysis: Acknowledging the irrelevance of data collected prior to 2013, concentrate future analyses and predictions on more recent and pertinent data sets. This can streamline analysis efforts and lead to more accurate forecasting for forthcoming years.
+
+ **Advertising and Promotional Strategies:**
+ - Targeted Marketing for Successful Platforms: Capitalize on the correlation between critic scores and sales for platforms like PlayStation. Design marketing campaigns that highlight critical acclaim to potentially boost sales further.
 Highlighting Wii's Success: Despite being an older system, promote popular games released for the Wii platform to leverage its historical success, potentially attracting nostalgic gamers and expanding the customer base.
-- **Genre-Specific Strategies:**
- - **Focus on High-Median Genres:** Given the popularity and high median of Shooter games, consider spotlighting this genre in advertising campaigns or expanding the available Shooter game selection to capitalize on its potential.
+
+ **Genre-Specific Strategies:**
+ - Focus on High-Median Genres: Given the popularity and high median of Shooter games, consider spotlighting this genre in advertising campaigns or expanding the available Shooter game selection to capitalize on its potential.
 Diversified Genre Offerings: While action and sports games are popular, diversify the game catalog to include a range of genres, catering to varying user preferences and potentially increasing overall sales.
-- **Regional Market Targeting:**
- - **Regional Sales Optimization:** Considering that the NA region generates the highest sales per platform, prioritize marketing efforts and inventory selections tailored to this region's preferences. Optimize the game selection based on regional preferences to maximize sales potential.
-- **Region-Specific Strategies:**
- - **Tailored Offerings for Different Regions:** Recognize the disparities in sales trends and preferences between regions (EU, NA, JP). Develop region-specific marketing strategies, game selections, and ESRB-rated content to better resonate with the unique preferences of each region.
-- **User Rating Insights:**
- - **Platform and Genre-Specific User Rating Analysis:** Acknowledging the differences in user ratings between genres and platforms, tailor user engagement strategies accordingly. Consider enhancing user experience or offering incentives for genres with varying user ratings to improve overall customer satisfaction.
- - 
+
+ **Regional Market Targeting:**
+ - Regional Sales Optimization: Considering that the NA region generates the highest sales per platform, prioritize marketing efforts and inventory selections tailored to this region's preferences. Optimize the game selection based on regional preferences to maximize sales potential.
+
+ **Region-Specific Strategies:**
+ - Tailored Offerings for Different Regions: Recognize the disparities in sales trends and preferences between regions (EU, NA, JP). Develop region-specific marketing strategies, game selections, and ESRB-rated content to better resonate with the unique preferences of each region.
+
+ **User Rating Insights:**
+ - Platform and Genre-Specific User Rating Analysis: Acknowledging the differences in user ratings between genres and platforms, tailor user engagement strategies accordingly. Consider enhancing user experience or offering incentives for genres with varying user ratings to improve overall customer satisfaction.
+ 
 Implementing these strategies derived from the analysis can assist Ice in optimizing inventory, refining advertising campaigns, targeting regional markets more effectively, and improving user engagement, ultimately leading to increased sales and enhanced customer satisfaction.
