@@ -1,4 +1,4 @@
-## Project description
+## Project Description
 
 This project focuses on analyzing data sourced from Instacart, a popular grocery delivery platform that allows customers to order groceries for home delivery, akin to the functionalities offered by Uber Eats or Door Dash.
 
@@ -12,7 +12,7 @@ The primary objective is to undertake data cleaning procedures, refining the dat
 
 - Report Creation: Developing a comprehensive report summarizing your findings, supported by well-designed plots that effectively communicate your analysis results.
 
-## Description of the data
+## Description of the Data
 
 There are five tables in the dataset, and you’ll need to use all of them to do your data preprocessing and EDA. Below is a data dictionary that lists the columns in each table and describes that data that hold.
 - instacart_orders.csv: each row corresponds to one order on the Instacart app
@@ -39,13 +39,13 @@ There are five tables in the dataset, and you’ll need to use all of them to do
   - `department_id`: ID number that uniquely identifies each grocery department category
   - `department`: name of the department
 
-## General conclusion
+## General Conclusion
 
 After analyzing the data, I concluded:
 - Customers are doing the most shopping between 10am and around 3pm, and the customers shop more on Sunday and Monday.
 - People are more likely to reorder their groceries monthly with most shoppers purchasing only one item and very little ordering over 15 items.
 
-## Suggestions for Company
+## Suggestions for the Company
 
 Understanding customers' shopping habits regarding timing and frequency can significantly impact business strategies for Instacart or similar platforms. Here are some potential improvement ideas and business outcomes based on the conclusions drawn:
 
