@@ -1,10 +1,16 @@
 ## Project description
 
-For this project, you’ll work with data from Instacart.
-Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. This particular dataset was publicly released by Instacart in 2017 for a Kaggle competition. Although the original dataset is no longer available on the Instacart website, we’ve created CSV files that contain a modified version of that data. Download these files and use them for your project.
-The dataset we've provided for you has been modified from the original. We've reduced the size of the dataset so that your calculations run faster and we’ve introduced missing and duplicate values. We were also careful to preserve the distributions of the original data when we made our changes.
-Your mission is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers. After answering each question, write a brief explanation of your results in a markdown cell of your Jupyter notebook.
-This project will require you to make plots that communicate your results. Make sure that any plots you create have a title, labeled axes, and a legend if necessary; and include plt.show() at the end of each cell with a plot.
+This project focuses on analyzing data sourced from Instacart, a popular grocery delivery platform that allows customers to order groceries for home delivery, akin to the functionalities offered by Uber Eats or Door Dash.
+
+The primary objective is to undertake data cleaning procedures, refining the dataset to ensure accuracy and reliability. Subsequently, the task is to compile a comprehensive report that delves into the shopping behaviors exhibited by Instacart customers.
+
+## Key Project Tasks:
+
+- Data Cleaning: Rigorous cleaning procedures to address inconsistencies, missing values, or any data irregularities within the Instacart dataset.
+
+- Insight Generation: Utilizing cleaned data to extract valuable insights into the shopping habits of Instacart users. This includes identifying trends, preferences, or patterns within the dataset.
+
+- Report Creation: Developing a comprehensive report summarizing your findings, supported by well-designed plots that effectively communicate your analysis results.
 
 ## Description of the data
 
