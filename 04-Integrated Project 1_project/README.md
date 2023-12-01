@@ -57,7 +57,7 @@ After analyzing the data, I concluded:
 ## Suggestions for the Company
 
 - **Strategic Inventory Management:**
- -**Platform-Specific Stock Management:** Considering the trend that top-selling platforms gained popularity post-1995, focus on optimizing inventory for these platforms, ensuring a robust selection of games tailored to their popularity. Minimize investments in obsolete platforms released before 2005, aligning stock levels with declining demand.
+ - **Platform-Specific Stock Management:** Considering the trend that top-selling platforms gained popularity post-1995, focus on optimizing inventory for these platforms, ensuring a robust selection of games tailored to their popularity. Minimize investments in obsolete platforms released before 2005, aligning stock levels with declining demand.
 - **Data Relevance and Focus:**
  - **Focused Data Analysis:** Acknowledging the irrelevance of data collected prior to 2013, concentrate future analyses and predictions on more recent and pertinent data sets. This can streamline analysis efforts and lead to more accurate forecasting for forthcoming years.
 - **Advertising and Promotional Strategies:**
