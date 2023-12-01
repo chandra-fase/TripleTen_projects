@@ -44,3 +44,16 @@ There are five tables in the dataset, and you’ll need to use all of them to do
 After analyzing the data, I concluded:
 - Customers are doing the most shopping between 10am and around 3pm, and the customers shop more on Sunday and Monday.
 - People are more likely to reorder their groceries monthly with most shoppers purchasing only one item and very little ordering over 15 items.
+
+## Suggestions for Company
+Understanding customers' shopping habits regarding timing and frequency can significantly impact business strategies for Instacart or similar platforms. Here are some potential improvement ideas and business outcomes based on the conclusions drawn:
+
+- **Optimized Delivery Scheduling:** Utilize the insights about peak shopping times (between 10 am to around 3 pm) to strategically plan delivery slots. Allocate more resources, delivery personnel, and customer support during these peak hours to ensure timely and efficient deliveries. This optimization could lead to increased customer satisfaction and loyalty.
+
+- **Promotional Campaigns and Special Offers:** Leverage the findings regarding higher shopping frequencies on Sundays and Mondays. Design targeted promotional campaigns, discounts, or exclusive offers during these days to encourage more frequent shopping and increase order volumes during what seems to be naturally active shopping periods.
+
+- **Reorder Incentives:** Given the observed tendency for customers to reorder monthly and purchase a relatively small number of items (with limited orders exceeding 15 items), introduce incentives or personalized recommendations for recurring monthly orders. Offering discounts or loyalty rewards for monthly reorders might encourage customers to stick to their routine purchases through Instacart.
+
+- **User Experience Enhancements:** Simplify and streamline the ordering process for customers who tend to purchase few items. Focus on optimizing the interface, making it effortless for customers to place orders consisting of a limited number of items, potentially through quick-order options or personalized suggestions.
+
+By implementing these strategies based on the observed shopping habits, Instacart or similar platforms can enhance user satisfaction, increase order frequency, and potentially drive higher revenue by catering to customers' preferences and shopping behaviors.
