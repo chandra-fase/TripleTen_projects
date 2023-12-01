@@ -1,7 +1,6 @@
 ## Project description
 
-Whenever we're performing analysis, we need to formulate hypotheses that we can then test. Sometimes we accept these hypotheses; other times, we reject them. To make the right decisions, a business must be able to understand whether or not it's making the right assumptions.
-In this project, you'll compare the music preferences of the cities of Springfield and Shelbyville. You'll look at real Yandex.Music data to test the hypotheses below and compare user behavior for these two cities.
+The project aims to analyze and compare music preferences between the cities of Springfield and Shelbyville using real Yandex.Music data. It involves testing hypotheses to understand user behavior in these locations. By examining and evaluating the data, the project seeks to determine if there are significant differences in music tastes between the two cities. The findings will enable better insights into user preferences and assist in making informed decisions regarding music content or marketing strategies tailored to each location.
 
 ## Hypotheses:
 
