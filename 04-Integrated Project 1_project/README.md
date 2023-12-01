@@ -1,11 +1,17 @@
-## Project description
+## Project Description
 
-You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. You need to identify patterns that determine whether a game succeeds or not. This will allow you to spot potential big winners and plan advertising campaigns.
-In front of you is data going back to 2016. Let’s imagine that it’s December 2016 and you’re planning a campaign for 2017.
-(The important thing is to get experience working with data. It doesn't really matter whether you're forecasting 2017 sales based on data from 2016 or 2017 sales based on data from 2016.)
-The dataset contains the abbreviation ESRB. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
+At Ice, an international online video game store, your role involves leveraging user and expert reviews, along with various game attributes such as genres, platforms (e.g., Xbox, PlayStation), and historical sales data, all obtained from open sources. The objective is to discern discernible patterns that significantly influence a game's success or failure in the market.
 
-## Description of the data
+The aim of this project, set in December 2016, is to glean insights that can guide future advertising campaigns and identify potential blockbuster games for the upcoming year (2017). Although the dataset encompasses information dating back to 2016, the goal isn't solely to predict 2017 sales based on this historical data, but to gain valuable experience in data analysis and trend identification.
+
+Key Project Objectives:
+- **Success Determinants:** Analyze the provided dataset to identify key patterns or factors that correlate with a game's success. This includes exploring relationships between user reviews, expert ratings, genres, platforms, ESRB ratings, and historical sales data.
+- **Campaign Planning:** Use the insights garnered from the analysis to formulate strategic advertising campaigns for the upcoming year (2017). Tailor these campaigns to maximize the potential success of identified games or genres with promising indicators.
+- **ESRB Ratings Analysis:** Examine the influence of ESRB ratings (such as Teen or Mature) on game success. Understand how these ratings impact sales and reception among target audiences.
+
+Your analysis will involve data exploration, feature engineering, and potentially predictive modeling to discern and interpret the intricate relationships between various attributes and a game's performance in the market. The ultimate goal is to equip Ice with actionable insights that will aid in optimizing advertising efforts, foreseeing potential blockbuster games, and making informed decisions regarding the store's inventory and promotional strategies for the upcoming year.
+
+## Description of the Data
 
 - `Name` - Name of the game
 - `Platform` - Platform game was developed for
@@ -19,7 +25,7 @@ The dataset contains the abbreviation ESRB. The Entertainment Software Rating Bo
 - `User_Score` - (maximum of 10)
  -`Rating` - (ESRB)
 
-## Answer these questions:
+## Answer These Questions:
 
 - Look at how many games were released in different years. Is the data for every period significant?
 - Look at how sales varied from platform to platform. Choose the platforms with the greatest total sales and build a distribution based on data for each year. 
@@ -33,7 +39,7 @@ The dataset contains the abbreviation ESRB. The Entertainment Software Rating Bo
 - Keeping your conclusions in mind, compare the sales of the same games on other platforms.
 - Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
 
-## General conclusion
+## General Conclusion
 
 After analyzing the data, I concluded:
 - Top selling platforms did not become popular until after 1995.
@@ -47,3 +53,24 @@ After analyzing the data, I concluded:
 - We found that the user rating vary from the action and sports genres but are similar between Xbox One and PC platforms by testing the following hypotheses:
   - Average user ratings of the Xbox One and PC platforms are the same.
   - Average user ratings for the Action and Sports genres are different.
+
+## Suggestions for the Company
+
+- **Strategic Inventory Management:**
+ -**Platform-Specific Stock Management:** Considering the trend that top-selling platforms gained popularity post-1995, focus on optimizing inventory for these platforms, ensuring a robust selection of games tailored to their popularity. Minimize investments in obsolete platforms released before 2005, aligning stock levels with declining demand.
+- **Data Relevance and Focus:**
+ - **Focused Data Analysis:** Acknowledging the irrelevance of data collected prior to 2013, concentrate future analyses and predictions on more recent and pertinent data sets. This can streamline analysis efforts and lead to more accurate forecasting for forthcoming years.
+- **Advertising and Promotional Strategies:**
+ - **Targeted Marketing for Successful Platforms:** Capitalize on the correlation between critic scores and sales for platforms like PlayStation. Design marketing campaigns that highlight critical acclaim to potentially boost sales further.
+Highlighting Wii's Success: Despite being an older system, promote popular games released for the Wii platform to leverage its historical success, potentially attracting nostalgic gamers and expanding the customer base.
+- **Genre-Specific Strategies:**
+ - **Focus on High-Median Genres:** Given the popularity and high median of Shooter games, consider spotlighting this genre in advertising campaigns or expanding the available Shooter game selection to capitalize on its potential.
+Diversified Genre Offerings: While action and sports games are popular, diversify the game catalog to include a range of genres, catering to varying user preferences and potentially increasing overall sales.
+- **Regional Market Targeting:**
+ - **Regional Sales Optimization:** Considering that the NA region generates the highest sales per platform, prioritize marketing efforts and inventory selections tailored to this region's preferences. Optimize the game selection based on regional preferences to maximize sales potential.
+- **Region-Specific Strategies:**
+ - **Tailored Offerings for Different Regions:** Recognize the disparities in sales trends and preferences between regions (EU, NA, JP). Develop region-specific marketing strategies, game selections, and ESRB-rated content to better resonate with the unique preferences of each region.
+- **User Rating Insights:**
+ - **Platform and Genre-Specific User Rating Analysis:** Acknowledging the differences in user ratings between genres and platforms, tailor user engagement strategies accordingly. Consider enhancing user experience or offering incentives for genres with varying user ratings to improve overall customer satisfaction.
+ - 
+Implementing these strategies derived from the analysis can assist Ice in optimizing inventory, refining advertising campaigns, targeting regional markets more effectively, and improving user engagement, ultimately leading to increased sales and enhanced customer satisfaction.
