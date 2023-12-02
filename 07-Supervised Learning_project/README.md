@@ -4,19 +4,19 @@ Beta Bank is facing a gradual loss of customers, prompting the realization that 
 
 Your task is to develop a predictive model with the highest achievable F1 score, indicating the model's precision and recall balance. The minimum threshold for passing this project is an F1 score of at least 0.59, assessed on the test dataset.
 
-**Key Project Objectives:**
-
-- Customer Churn Prediction:
-  - Utilize historical customer behavior and contract termination data to construct a predictive model that accurately identifies customers likely to churn from Beta Bank.
-
-- Maximizing F1 Score:
-  - Emphasize achieving the highest possible F1 score as the primary performance metric for the model. Aim for a balance between precision and recall to accurately predict customer churn.
-
-- Performance Evaluation with Metrics:
-  - Assess the model's performance using the F1 score on the test set. Ensure the achieved F1 score meets or exceeds the minimum threshold of 0.59 for project success.
-  - Measure the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) metric to evaluate the model's overall performance and compare it with the F1 score. This metric provides insight into the model's ability to distinguish between churn and non-churn instances.
-
 The ultimate objective of this project is to develop a robust predictive model that accurately identifies customers at risk of churning from Beta Bank. By achieving a high F1 score and assessing the AUC-ROC metric, the model's effectiveness in identifying potential churners can be evaluated and utilized for proactive customer retention strategies.
+
+## Key Project Objectives:
+
+**Customer Churn Prediction:**
+- Utilize historical customer behavior and contract termination data to construct a predictive model that accurately identifies customers likely to churn from Beta Bank.
+
+**Maximizing F1 Score:**
+- Emphasize achieving the highest possible F1 score as the primary performance metric for the model. Aim for a balance between precision and recall to accurately predict customer churn.
+
+**Performance Evaluation with Metrics:**
+- Assess the model's performance using the F1 score on the test set. Ensure the achieved F1 score meets or exceeds the minimum threshold of 0.59 for project success.
+- Measure the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) metric to evaluate the model's overall performance and compare it with the F1 score. This metric provides insight into the model's ability to distinguish between churn and non-churn instances.
 
 ## Description of the Data
 
@@ -34,13 +34,6 @@ The ultimate objective of this project is to develop a robust predictive model t
 - `IsActiveMember` — customer’s activeness
 - `EstimatedSalary` — estimated salary
 - `Exited` — сustomer has left
-
-## Answer These Questions:
-
-- Examine the balance of classes. Train the model without taking into account the imbalance. Briefly describe your findings.
-- Improve the quality of the model. Make sure you use at least two approaches to fixing class imbalance. Use the training set to pick the best parameters. 
-- Train different models on training and validation sets. Find the best one. Briefly describe your findings.
-- Perform the final testing.
 
 ## General Conclusion
 
