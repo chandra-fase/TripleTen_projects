@@ -36,7 +36,7 @@ The project aims to develop a robust model capable of automatically detecting ne
 ## General Conclusion
 
 - The DummyClassifier, as expected, produces an F1 score of 50%, which is as good as flipping an unbiased coin.
-- Comparing the LogisticRegression models with NLTK used for preprocessing and Spacy for preprocessing, the model with reviews preprocesed using NLTK, comes out at the top with best f1 score of 88%.
+- Comparing the LogisticRegression models with NLTK used for preprocessing and Spacy for preprocessing, the model with reviews preprocessed using NLTK, comes out at the top with best f1 score of 88%.
 - Both the models were trained using 5 fold cross-validation with hyperparameter tuning on the C parameter.
 - The LightGBM model turned out to have a lower f1 score, and it took more than two hours to complete training.
 
