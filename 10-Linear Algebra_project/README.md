@@ -28,7 +28,7 @@ The project aims to harness Machine Learning capabilities to enhance marketing s
 ## General Conclusion
 
 - We used KNearestNeighbhors to find the customer closest to a given customer; the solution was improved with scaling the data, and using the Euclidean metric to improve the predictions.
-- We also built models to help the marketing team predict whether a customer will likely recieve insurance benefits or not. And, the resulting model with scaled data, performed very well compared to a dummy model. The resulting model produced had an F1 score of 92% on the validation set.
+- We also built models to help the marketing team predict whether a customer will likely receive insurance benefits or not. And, the resulting model with scaled data, performed very well compared to a dummy model. The resulting model produced had an F1 score of 92% on the validation set.
 - We built a LinearRegression model on both scaled and unscaled data, to predict the number of insurance benefits a new customer would receive; the model produced a moderately high R2 score 66%. What we have observed is that scaling didn't impact the results.
 - We obfuscated the data, and showed analytically that there is no difference between the obfuscated data and the original data.
 - We also proved this computationally, by building a LinearRegression model using the obfuscated data, and the resulting RMSE and R2 scores were identical to that obtained with modeling the original data.
