@@ -48,8 +48,8 @@ Join the rides for all other companies in the group "Other." Group the data by t
 ## General Conclusion
 
 - Looking at the top ten companies based on the trip amount, we can see that Flash Cab is the leading company by over 8,000. After this large jump from the Flash Cab to Taxi Affiliation Services, the trip amount decreases less significantly between the rest of the top ten companies.
-- Our graph of the average trip amount per dropoff location shows that Loop is the most popular dropoff location. The average trip amount for the bottom three of the top ten dropoff locations are very similar.
-- After testing the hypothesis we can see that the average duartion of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
+- Our graph of the average trip amount per drop-off location shows that Loop is the most popular drop-off location. The average trip amount for the bottom three of the top ten drop-off locations are very similar.
+- After testing the hypothesis, we can see that the average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
 
 ## Suggestions for the Company
 
