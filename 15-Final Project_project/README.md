@@ -53,7 +53,7 @@ The primary objective is to develop a predictive model capable of anticipating c
 - The following customer features were engineered:
   - `num_days` - dervied by taking the difference between `EndDate` and `BeginDate`
   - `num_pmt` - derived by taking the ratio between 'TotalCharges' and `MonthlyCharges`
-  - `num_services` - counts a yes for either phone service or internet related service as a 1 or 0, then it is totalled to determine the number of services a customer has signed up for
+  - `num_services` - counts a yes for either phone service or internet related service as a 1 or 0, then it is totaled to determine the number of services a customer has signed up for
 - Missing values in the phone and internet related features were replaced with 'No' as these represent customers who did not have these services.
 - Numerical features such as `MonthlyCharges`, `num_days`, `num_pmt`, `num_service` and `TotalCharges` were scaled on the training set. Similarly, the categorical features and binary features where encoded using one-hot encoding.
 - Redundant features such as `CustomerId`, `BeginDate`, and `EndDate` were dropped and four models were built.
