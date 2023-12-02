@@ -45,12 +45,12 @@ After analyzing the data, I concluded:
 - Top selling platforms did not become popular until after 1995.
 - Platforms released before 2005 have pretty much become obsolete with the rest slowing declining.
 - We have decided data collected prior to 2013 is irrelevant.
-- Using the example of Playstation platforms, the user scores have little correlation and the critic scores have moderate correlation with the total sales.
+- Using the example of PlayStation platforms, the user scores have little correlation and the critic scores have moderate correlation with the total sales.
 - Although the Wii is an older system, many of the most popular games were released for the Wii platform
 - Overall, the most popular genre of games was action followed by sports, but the Shooter genre has the highest median.
 - The NA region generates the highest number of sales per platform
 - The EU and NA regions are similar in their top platforms, genre and ESRB rating. The JP region generates the smallest number of sales per platform and varies quite a bit from the other two regions in top platforms, genres and ESRB ratings.
-- We found that the user rating vary from the action and sports genres but are similar between Xbox One and PC platforms by testing the following hypotheses:
+- We found that the user rating varies from the action and sports genres but are similar between Xbox One and PC platforms by testing the following hypotheses:
   - Average user ratings of the Xbox One and PC platforms are the same.
   - Average user ratings for the Action and Sports genres are different.
 
