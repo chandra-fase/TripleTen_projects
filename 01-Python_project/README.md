@@ -18,6 +18,26 @@ The project aims to analyze and compare music preferences between the cities of 
 - `time`: the exact time the track was played
 - `Day`: day of the week
 
+## Steps Taken
+
+- The data was cleaned and preprocessed by removing duplicate and missing values and replace wrong values.
+- The data was then split into groups by city to prepare fo hypothesis testing.
+- Hypothesis 1 was tested by:
+  - Grouping the data by city to find the number of tracks played in each group
+  - Grouping the data by day of week to find the number of tracks played on Monday, Wednesday, and Friday
+  - Creating a new function to calculate the number of songs played for a given day and city
+      <img width="375" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/2f4655f0-b6ec-4b3b-b96d-c715aaae2eed">
+  - Creating a new table displaying the results
+      <img width="502" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/534a026a-3daa-48c6-8e4b-c75a5b2fcb5f">
+- Hypothesis 2 was tested by:
+  -  Creating a function to return info on the 15 most popular genres on a given day within the period of two timestamps
+      <img width="738" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/11ad6108-b818-4139-a8d5-4230ad2db6b1">
+  -  Using the new function to compare the results for Springfield and Shelbyville on Monday morning from 7am to 11am and on Friday evening from 5pm to 11pm.
+- Hypothesis 3 was tested by:
+  - Grouping the `spr_general` and `shel_general` tables (separately) by genre and using the count method to find the number of songs played, displaying them in descending order for each city
+      <img width="524" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/5eea1900-fb16-4b60-a343-2791e02703bf">
+      <img width="377" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/e39474f0-185e-4ea2-a383-b74b9922eacc">
+
 ## General Conclusion
 
 After analyzing the data, I concluded:
