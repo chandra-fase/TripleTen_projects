@@ -39,6 +39,24 @@ Your analysis will involve data exploration, feature engineering, and potentiall
 - Keeping your conclusions in mind, compare the sales of the same games on other platforms.
 - Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
 
+## Steps Taken
+
+- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicates
+- The columns were also chenged to the correct data types where necessary
+- The total sales were calculated for each game and put into a separate column
+- EDA was performed to discover which years are significant, display the top ten gaming platforms based on total sales, to show the global sales of all games broken down by platform, and to calculate the correlation between the reviews and sales
+
+   <img width="334" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/202a2ad1-f376-466e-942e-1b585e99f25e">
+   
+  <img width="336" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/782120e8-03b3-4837-998a-0292a93ec3d3">
+  
+  <img width="262" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/7fb51588-c5a5-4322-8af4-744ea9413e8c">
+
+  <img width="586" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/dc1bb663-3c5c-4cb1-8d4e-e24fc292e76e">
+  
+- Each region was split to determine the top five platforms and game genres
+- Used an alpha threshold of 0.5 to test the hypotheses
+
 ## General Conclusion
 
 After analyzing the data, I concluded:
