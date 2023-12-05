@@ -41,10 +41,10 @@ Your analysis will involve data exploration, feature engineering, and potentiall
 
 ## Steps Taken
 
-- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicates
-- The columns were also chenged to the correct data types where necessary
-- The total sales were calculated for each game and put into a separate column
-- EDA was performed to discover which years are significant, display the top ten gaming platforms based on total sales, to show the global sales of all games broken down by platform, and to calculate the correlation between the reviews and sales
+- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicates.
+- The columns were also changed to the correct data types where necessary.
+- The total sales were calculated for each game and put into a separate column.
+- EDA was performed to discover which years are significant, display the top ten gaming platforms based on total sales, to show the global sales of all games broken down by platform, and to calculate the correlation between the reviews and sales.
 
    <img width="334" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/202a2ad1-f376-466e-942e-1b585e99f25e">
    
@@ -54,8 +54,8 @@ Your analysis will involve data exploration, feature engineering, and potentiall
 
   <img width="586" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/dc1bb663-3c5c-4cb1-8d4e-e24fc292e76e">
   
-- Each region was split to determine the top five platforms and game genres
-- Used an alpha threshold of 0.5 to test the hypotheses
+- Each region was split to determine the top five platforms and game genres.
+- Used an alpha threshold of 0.5 to test the hypotheses.
 
 ## General Conclusion
 
