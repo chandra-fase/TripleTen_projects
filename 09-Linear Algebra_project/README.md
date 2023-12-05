@@ -25,6 +25,31 @@ The project aims to harness Machine Learning capabilities to enhance marketing s
 - `salary` - Salary of insured
 - `number of family members` - Number of dependents
 
+## Steps Taken
+- Cleaned and preprocessed the data by removing duplicate values, as well correcting column data types.
+- Performed EDA to visualize if any obvious customer groups exist.
+
+    <img width="312" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/c5bb38b1-a5ed-4029-bc38-bedbf5428484">
+    
+- Created a function to return k nearest neighbors for the nth object based on a specified distance.
+    <img width="490" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/072ce9af-a248-4b14-970e-ae42d3d89c5e">
+- Tested the function for four combinations of two case:
+  - Scaling:
+    - The data is not scaled
+    - The data is scaled with the MaxAbsScaler
+  - Distance Metrics
+    - Euclidean
+    - Manhattan
+- Built a KNN-based classifier and measured its quality with the F1 metric for k = 1...10 for both the original data and the scaled data.
+
+    <img width="290" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/1d457760-d555-420c-8340-27850b1a991b">
+- Created a dummy model to test it with four different probability values:
+  - 0
+  - Probability of paying any insurance benefit
+  - 0.5
+  - 1
+- Obfuscated the data by multiplying the numerical features by an invertible matrix *P*. 
+
 ## General Conclusion
 
 - We used KNearestNeighbhors to find the customer closest to a given customer; the solution was improved with scaling the data, and using the Euclidean metric to improve the predictions.
