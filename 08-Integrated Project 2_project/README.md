@@ -45,6 +45,24 @@ The project aims to ensure data accuracy, perform comprehensive preprocessing, a
 - `primary_cleaner.input.sulfate`   - Concentrate of sulphate
 - `primary_cleaner.input.depressant` - Concentrate of depressant
 
+## Steps Taken
+- Opened and looked over datasets.
+- Checked that recovery was calculated correctly by using the training set to calculate recovery for the `rougher.output.recovery` features and finding the mean absolute error (MAE) between the calculations and the feature values.
+- Performed data preprocessing by merging datasets and dealing with missing values.
+- Used EDA to compare feed particle size distributions in the training set and in the test set.
+    <img width="488" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/8ab3f7d3-c9b3-4c59-885a-e2156e9e35bf">
+    <img width="359" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/f06508e4-5da3-4740-ab7f-c9e3402ae52d">
+- Also, created graphs to visualize total concentration of all metals at certain stages.
+    <img width="476" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/9434f79f-142f-4ce7-be95-bc5ab3ea5b5f">
+- Created a function to calculate the final sMAPE value.
+
+    <img width="340" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/e7ebc781-35d6-4936-855e-147e2137cca3">
+- Trained the following models and evaluated them using cross-validation:
+  - LinearRegression
+  - DecisionTreeRegressor
+  - RandomForestRegressor
+- Chose the best model (RandomForestRegressor) and tested it using the test sample.
+
 ## General Conclusion
 
 We compared several models with Dummy Regressor (sMAPE=0.1029):
