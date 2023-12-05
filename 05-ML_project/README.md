@@ -24,14 +24,17 @@ Every observation in the dataset contains monthly behavior information about one
 - `mb_used` — Internet traffic used in MB,
 - `is_ultra` — plan for the current month (Ultra - 1, Smart - 0).
 
+## Steps Taken
 
-## Answer These Questions:
-
-- Split the source data into a training set, a validation set, and a test set.
-- Investigate the quality of different models by changing hyperparameters. Briefly describe the findings of the study.
-- Check the quality of the model using the test set.
-- Additional task: sanity check the model. This data is more complex than what you’re used to working with, so it's not an easy task. We'll take a closer look at it later.
-
+- Checked for missing values and correct datatypes
+- Split the data into a training set, validation set, and a test set
+    <img width="490" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/91c785d1-73b1-4bbb-8997-436868382f55">
+- Trained and tested each of the following models after investigating and changing hyperparameters:
+  - DecisionTreeClassifier
+  - RandomForestClassifier
+  - LogisticRegression
+- Sanity checked the model using DummyClassifier with the 'most_frequent' strategy
+    <img width="368" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/e66566a6-032b-4c40-b0bd-8d87764061a4">
 
 ## General Conclusion
 
