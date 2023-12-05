@@ -37,6 +37,18 @@ The project's primary focus is to build and evaluate predictive models for deter
 - `LastSeen` — date of the last activity of the user
 - `Price` — price (Euro)
 
+## Steps Taken
+- Cleaned and prepared the dataset by removing duplicates, renaming columns to follow snake-case, filling in missing values and correct column datatypes.
+- Encoded the categorical features using OrdinalEncoder.
+- Dropped the unnecessary features for modeling.
+- Split the data into train, test, and valid.
+- Built a function to use for each model tested to tune hyperparameter and compare RMSE and train time.
+    <img width="364" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/191a7290-7cfd-4117-9d5f-3c8fab591ffc">
+    
+    <img width="427" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/f566e467-5dfd-497c-9831-a42297368219">
+- Created a test_prediction function to compare each model using the test set on best RMSE and prediction time.
+    <img width="485" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/a823a4df-7eca-452a-8b23-8ebee0a76f0e">
+
 ## General Conclusion
 
 - RustyBargain will have to make a compromise between a 24x increase in training time versus a +/- 1.1x increase in RMSE should it decide between the top 2 models - RandomForestRegression and CatBoostRegression.
