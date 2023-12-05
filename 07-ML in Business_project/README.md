@@ -35,6 +35,21 @@ The project's ultimate goal is to utilize data-driven insights and predictive mo
 - Write a function to calculate profit from a set of selected oil wells and model predictions
 - Calculate risks and profit for each region
 
+## Steps Taken
+- Downloaded the data sets and checked for missing values and correct datatypes.
+- Assigned features and target.
+- Split the data into a training set and a validation set at a ratio of 75:25.
+- Standardized the data using StandardScaler.
+- Trained each data set with LinearRegression to make predictions for the validation set.
+    <img width="497" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/fb0cb2ce-5c89-4e9d-8001-932120624d8d">
+- Stored key values for calculations as separate variable.
+- Created a function to calculate profit from a set of selected oil wells and model predictions.
+    <img width="456" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/7709f3fa-82b5-4ba5-98ab-03a30217c2f2">
+- Used the bootstrapping technique with 1000 samples to find the distribution of profit.
+    <img width="528" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/21b2602d-d578-45c5-b3bf-63823871b972">
+    <img width="340" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/dda436d0-4479-495d-a072-2e32fccdb735">
+- Calculated the average profit with a 95% confidence interval and risk for losses for each region.
+
 ## General Conclusion
 
 Looking at the average profit, confidence interval and risk of losses, the best region is the second region ('geo_data_1'). The average profit is higher than the two others and the risk of loss is at the lowest with 1%.
