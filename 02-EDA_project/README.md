@@ -41,17 +41,18 @@ There are five tables in the dataset, and you’ll need to use all of them to do
 
 ## Steps Taken
 
-- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicate orders
-- Created plots to show the times of day people shop for groceries, what days they are shopping and how long people are waiting to place another order
+- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicate orders.
+- Created plots to show the times of day people shop for groceries, what days they are shopping and how long people are waiting to place another order.
       <img width="602" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/ddcd7bc2-4780-4887-ac0f-3c575981e4a3">
       <img width="533" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/07567361-d6aa-4c0c-b85e-04f666842030">
       <img width="703" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/ef680316-f798-4522-9d30-2d0f4f7bb7e7">
-- Created a histogram to see if there was a difference in `order_hour_of_day` distributions on Wednesdays and Saturdays
-      <img width="347" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/ea906e5a-6aea-45d0-b527-4e764656e06a">
-- The top 20 popular products were discovered by merging the `df_order_prods` and `df_prods` dataframes and then using the groupby method accompanied with size()
+- Created a histogram to see if there was a difference in `order_hour_of_day` distributions on Wednesdays and Saturdays.
+
+  <img width="347" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/ea906e5a-6aea-45d0-b527-4e764656e06a">
+- The top 20 popular products were discovered by merging the `df_order_prods` and `df_prods` dataframes and then using the groupby method accompanied with size().
       <img width="562" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/02a197b2-daaf-4946-bc1c-7f811d9001d9">
-- The top 20 items that are reorders most frequently were found by merging `df_order_prods` with `df_prods` on `product_id`, and then merging again with `reordered` == 1
-- Similar step were taken to discover the top 20 items that people add to their carts first.
+- The top 20 items that are reorders most frequently were found by merging `df_order_prods` with `df_prods` on `product_id`, and then merging again with `reordered` == 1.
+- Similar steps were taken to discover the top 20 items that people add to their carts first.
       <img width="556" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/0c2b4aa3-f047-4180-86d5-44785e844153">
 
 ## General Conclusion
