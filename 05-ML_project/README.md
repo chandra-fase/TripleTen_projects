@@ -26,14 +26,14 @@ Every observation in the dataset contains monthly behavior information about one
 
 ## Steps Taken
 
-- Checked for missing values and correct datatypes
-- Split the data into a training set, validation set, and a test set
+- Checked for missing values and correct datatypes.
+- Split the data into a training set, validation set, and a test set.
     <img width="490" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/91c785d1-73b1-4bbb-8997-436868382f55">
 - Trained and tested each of the following models after investigating and changing hyperparameters:
   - DecisionTreeClassifier
   - RandomForestClassifier
   - LogisticRegression
-- Sanity checked the model using DummyClassifier with the 'most_frequent' strategy
+- Sanity checked the model using DummyClassifier with the 'most_frequent' strategy.
     <img width="368" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/e66566a6-032b-4c40-b0bd-8d87764061a4">
 
 ## General Conclusion
