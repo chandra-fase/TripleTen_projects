@@ -48,6 +48,37 @@ The primary objective is to develop a predictive model capable of anticipating c
 - `year` - Year
 - `num_services` - Number of services availed
 
+## Steps Taken
+**Work Plan**
+- Checked the datasets for missing and duplicate values, and changing data types when necessary.
+- Performed exploratory data analysis to figure out which questions needed to be asked for the work plan. This included:
+  - Merging the four data frames.
+  - Creating a target feature.
+  - Removing outliers.
+  - Visualizing the distribution of monthly charges between churned and not churned customers, as well as the distribution of monthly charges by gender and churned status and senior citizens and their churned status.
+ 
+    <img width="223" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/ba045fd6-77fc-4a55-8725-82d8911c70a9">
+
+    <img width="269" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/547b1ef1-dc74-4413-af24-c4a50d43cc71">
+
+- Used results of EDA to complete a work plan including, clarifying questions, and next steps.
+
+**Solution Code**
+-  Missing values in `TotalCharges` were imputed using SimpleImputer and missing values for `MultipleLines` and various Internet services after merging the datasets were replaced with "No", since this meant the customer did not opt for these services.
+-  Created `num_day` derived by taking the difference between `EndDate` and `BeginDate` as well as creating `num_pmt` which is a ratio of `TotalCharges`/`MonthlyCharges`.
+- Stratfied and split the dataset into train and test into a ratio of 80:20.
+  - A copy of this dataset was also created, to test whether `num_days` caused any leakage
+- Applied Ordinal Encoding for the Type and PaymentMethod features.
+  - Scaled the numerical features such as `num_days`, `num_pmt`, `num_services`, `MonthlyCharges`, and `TotalCharges`, including the date features.
+  - One-hot encoded the boolean features.
+- Built six models using LogisticRegression, RandomForestClassifier and CatBoostClassifier. Each model was trained on the two datasets.
+
+    <img width="501" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/dbfe091a-28a3-454e-bdd9-d4db9cb5c6e9">
+
+    <img width="311" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/b01492af-f151-4fcc-9c18-199dfe6349df">
+
+  - Used 5-fold cross validation during GridSearch to identify useful hyperparameters for the respective models. Only one or two hyperparameters were tuned to save time.
+
 ## General Conclusion
 
 - The following customer features were engineered:
