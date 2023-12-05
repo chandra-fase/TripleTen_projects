@@ -38,14 +38,14 @@ The ultimate objective of this project is to develop a robust predictive model t
 
 ## Steps Taken
 - Prepared the data by:
-  - Renaming columns to follow snake-case rules
-  - Removing missing values
-  - Changing the `gender` and `geography` columns to int
-  - Removing unnecessary columns
-- Assigned features and target
-- Split the data into train, test and valid
-- Scaled numeric data using StandardScaler
-- Built and trained the follwing models, providing EDA of the ROC curve:
+  - Renaming columns to follow snake-case rules.
+  - Removing missing values.
+  - Changing the `gender` and `geography` columns to int.
+  - Removing unnecessary columns.
+- Assigned features and target.
+- Split the data into train, test and valid.
+- Scaled numeric data using StandardScaler.
+- Built and trained the following models, providing EDA of the ROC curve:
     <img width="677" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/9c17cd41-c665-4d6e-9643-2b533dc5ea0e">
   - DecisionTreeClassifier
     <img width="701" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/7d1068d5-842f-4a37-b54d-19616dc1fe23">
@@ -53,8 +53,8 @@ The ultimate objective of this project is to develop a robust predictive model t
     <img width="690" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/acc7bbb5-faad-44b6-9b70-8f763d0b1e62">
   - LogisticRegression
     <img width="676" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/208d3e56-7768-4970-ab99-38a5a0407fbd">
-- Used upsampling and downsampling to try to fix imbalance issues
-- Performed final testing with DecisionTreeClassifier and upsampling since together they produced the best results in training
+- Used upsampling and downsampling to try to fix imbalance issues.
+- Performed final testing with DecisionTreeClassifier and upsampling since together they produced the best results in training.
 
 ## General Conclusion
 
