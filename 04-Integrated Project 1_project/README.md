@@ -41,7 +41,7 @@ Your analysis will involve data exploration, feature engineering, and potentiall
 
 ## Steps Taken
 
-- The dataset was cleaned and preprocessed by removing duplicates, discovering missing values, and checking for duplicates.
+- The dataset was cleaned and preprocessed by removing duplicates and discovering missing values.
 - The columns were also changed to the correct data types where necessary.
 - The total sales were calculated for each game and put into a separate column.
 - EDA was performed to discover which years are significant, display the top ten gaming platforms based on total sales, to show the global sales of all games broken down by platform, and to calculate the correlation between the reviews and sales.
