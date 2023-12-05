@@ -52,14 +52,14 @@ There are five tables in the dataset, and you’ll need to use all of them to do
 
 ## Steps Taken
 
-- Cleaned and preprocessed the data by removing duplicate and missing values, as well correcting column data types
-- Aggregated the data per user per period in order to have just one record per period
-- Built a function to calculate the monthly revenue for each user
+- Cleaned and preprocessed the data by removing duplicate and missing values, as well correcting column data types.
+- Aggregated the data per user per period in order to have just one record per period.
+- Built a function to calculate the monthly revenue for each user.
 - Created a plot graph to compare the average call duration per month average number of messages per month, average amount of internet traffic consumed and average amount of revenue, each per plan.
     <img width="329" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/896235cc-621d-4d11-a95f-f4fc85266349">
     <img width="254" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/0f0381c7-f3ff-4254-a92d-6d5fa39c0905">
-- Box plots were also created to visualize the monthly distributions of each plan for each feature 
-- Used an alpha value of 0.5 to test the two hypotheses
+- Box plots were also created to visualize the monthly distributions of each plan for each feature.
+- Used an alpha value of 0.5 to test the two hypotheses.
 
 ## General Conclusion
 
