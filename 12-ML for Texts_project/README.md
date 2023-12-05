@@ -33,6 +33,24 @@ The project aims to develop a robust model capable of automatically detecting ne
 - `pos: the target`, '0' for negative and '1' for positive
 - `ds_part`: 'train'/'test' for the train/test part of dataset, correspondingly
 
+## Steps Taken
+- Cleaned and prepared the dataset by checking for missing values, duplicates and correct datatypes.
+- Used EDA to visualize the number of reviews of the years and the distribution of number of reviews per movie with the exact counting and KDE.
+  
+    <img width="482" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/d2e49306-6fdb-44e4-8593-2e554b87ce0f">
+<img width="487" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/6fd73098-8456-4899-86ff-0a05d028648b">
+
+- EDA was also used to visualize any imbalance between the train and test datasets.
+    <img width="483" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/cabd6034-4c12-440d-80f1-d824d3d0f878">
+- Composed an evaluation function to be used for all models.
+- Cleaned up the review texts using WordNetLemmatizer.
+- Trained and tested three different models:
+  - NLTK, TF-IDF and LogisticRegression
+  - spaCy, TF-IDF and LogisticRegression
+  - spaCy, TF-IDF and LGBMClassifier
+- Classified a few provided reviews with all of the models.
+- Checked for differences between the testing results of models.
+
 ## General Conclusion
 
 - The DummyClassifier, as expected, produces an F1 score of 50%, which is as good as flipping an unbiased coin.
