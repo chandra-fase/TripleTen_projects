@@ -24,6 +24,24 @@ The project's primary objective is to develop an accurate predictive model to an
 - `num_orders` - Number of orders
 - `datetime` - Date of ride
 
+## Steps Taken
+- Checked for missing and duplicated values and resampled the data by hour.
+- Analyzed data correcting data types and creating trend visualizations.
+
+    <img width="440" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/5d2f50e0-d192-4154-a5ef-9edbe99d0706">
+
+<img width="323" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/06f1fe44-1c0e-4a1d-81ce-d7f7cbd07911">
+
+<img width="285" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/6f2c3dbc-b1bf-4491-a81c-7fde9c887328">
+
+- Split the data into train and test.
+- Trained the following models, using different hyperparameters:
+  - LinearRegression
+  - RandomForestRegressor
+  - CatBoostRegressor
+- Built a test_prediction function to predict RMSE on the test set.
+    <img width="464" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/7fdb5d4c-8f54-40cc-b5ee-9202af397617">
+
 ## General Conclusion
 
 - The mean 'num_orders' shows an upward trend in the last 5 months between March 1, 2018 and August 31, 2018.
