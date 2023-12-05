@@ -25,6 +25,18 @@ Evaluate the model's performance in accurately predicting ages from images, cons
 - `file_name` - Name of the image
 - `real_age` - Age of subject
 
+## Steps Taken
+- Cleaned and prepared the dataset by checking for missing values, duplicates and correct datatypes.
+- Performed EDA to get an overall impression of the dataset.
+  
+    <img width="205" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/fafb2f13-c3c8-45e5-9b87-c75a812a75f3">
+    
+- Trained and evaluated the model by building a 'load_train', a 'load_test', a 'create_model' and a 'train_model' function.
+ 
+    <img width="254" alt="image" src="https://github.com/chandra-fase/TripleTen_projects/assets/132231330/b002e1cd-2d7e-4157-bcb8-6bc51e73b292">
+
+- Prepared the script to run on the GPU platform.
+
 ## General Conclusion
 
 With our 20 epochs we were able to achieve a MAE of 5.5504, which is great. The system took less than 30 minutes to run, with each epoch taking just over one minute. This could possibly be further improved by adding dropout, and increasing the training time.
